@@ -1,30 +1,33 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <osm version='0.6' upload='true' generator='JOSM'>
-    <node id='1008' lat='40.68337867965' lon='-3.79469197669'>
+  
+
+  <node id='1008' lat='40.68337867965' lon='-3.79469197669'>
     <tag k='description' v='Crossroads with a minor road' />
-    <tag k='grupo' v='Advertencia de peligro' />
+    <tag k='group' v='warning' />
     <tag k='highway' v='traffic_signals' />
-    <tag k='ref:spain' v='P-1c' />
+    <tag k='ref:es' v='P-1c' />
   </node>
   <node id='1010' lat='40.68537402203' lon='-3.8225027308'>
     <tag k='description' v='Crossroads with a minor road' />
     <tag k='group' v='warning' />
     <tag k='highway' v='traffic_signals' />
-    <tag k='ref:spain' v='P-1c' />
+    <tag k='ref:es' v='P-1c' />
   </node>
   <node id='2944' lat='40.69744106522' lon='-3.92170161988'>
     <tag k='description' v='double curve' />
     <tag k='group' v='warning' />
     <tag k='highway' v='traffic_signals' />
-    <tag k='ref:spain' v='P-14b' />
+    <tag k='ref:es' v='P-14b' />
   </node>
   <node id='2974' lat='40.688578' lon='-3.901829'>
     <tag k='PK' v='42+00000' />
     <tag k='description' v='Kilometer 42' />
     <tag k='group' v='milestones' />
     <tag k='highway' v='traffic_signals' />
-    <tag k='ref:spain' v='PK-1' />
+    <tag k='ref:es' v='PK-1' />
   </node>
+
   <relation id="113421">
     <tag k="route" v="A-2"/>
     <member type="way" id="270186" role="1"/>
