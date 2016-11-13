@@ -1,0 +1,41 @@
+<node id="31932512" lat="52.1266913" lon="0.0431664">
+  <tag k="description" v="BARRINGTON | Reduce your speed"/>
+  <tag k="note" v="Village sign and speed limit transition at Foxton end of bridge"/>
+  <tag k="traffic_sign" v="city_limit"/>
+</node>
+<node id="31932653" lat="52.1239541" lon="0.0478815">
+  <tag k="crossing:gated" v="no"/>
+  <tag k="description" v="Level crossing no longer in use"/>
+  <tag k="name" v="Foxton Road crossing"/>
+  <tag k="note:description" v="Description correct circa late August 2010."/>
+  <tag k="railway" v="level_crossing"/>
+  <tag k="source:name" v="sign"/>
+</node>
+<node id="41035424" lat="52.0866922" lon="0.1720351">
+  <tag k="crossing:barrier" v="half"/>
+  <tag k="crossing:bell" v="yes"/>
+  <tag k="crossing:light" v="yes"/>
+  <tag k="railway" v="level_crossing"/>
+</node>
+<way id="4907197">
+  <nd ref="31932844"/>
+  <nd ref="31932512"/>
+  <tag k="bridge" v="yes"/>
+  <tag k="highway" v="tertiary"/>
+  <tag k="layer" v="1"/>
+  <tag k="maxspeed" v="30 mph"/>
+  <tag k="source" v="survey"/>
+</way>
+<relation id="935883">
+  <member type="way" ref="5015779" role=""/>
+  <member ... list of 103 member ways />
+  <member type="way" ref="4801560" role=""/>
+  <tag k="abutters" v="leisure"/>
+  <tag k="description" v="National Byway route through Cambridgeshire"/>
+  <tag k="fixme" v="This is an incomplete relation, c. Aug 2010"/>
+  <tag k="name" v="National Byway (Cambridgeshire)"/>
+  <tag k="network" v="rcn"/>
+  <tag k="ref" v="NB"/>
+  <tag k="route" v="bicycle"/>
+  <tag k="type" v="route"/>
+</relation>
